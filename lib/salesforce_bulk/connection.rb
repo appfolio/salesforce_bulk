@@ -14,7 +14,6 @@ module SalesforceBulk
       @password = password
       @session_id = nil
       @server_url = nil
-      @instance = nil
       @@API_VERSION = api_version
       @@LOGIN_PATH = "/services/Soap/u/#{@@API_VERSION}"
       @@PATH_PREFIX = "/services/async/#{@@API_VERSION}/"
